@@ -1,4 +1,3 @@
-```markdown
 # 🔓 Bypass Claude API Limits & Reduce Costs
 
 Are you hitting the `429 Too Many Requests` error with Anthropic's official API? Or maybe Tier 1 / Tier 2 limits are slowing down your development? 
@@ -20,7 +19,7 @@ You can grab a developer API token (preloaded with balance) and the custom Base 
 
 Simply replace the official base URL with the one provided in your purchase email:
 
-```bash
+bash
 curl YOUR_CUSTOM_BASE_URL_HERE/messages \
      -H "x-api-key: YOUR_PURCHASED_API_KEY" \
      -H "anthropic-version: 2023-06-01" \
